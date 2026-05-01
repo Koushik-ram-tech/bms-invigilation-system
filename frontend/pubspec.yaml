@@ -1,0 +1,34 @@
+name: bms_invigilation
+description: BMS Exam Invigilation System v8 — iOS + Android
+
+publish_to: 'none'
+version: 8.0.0+8
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP requests to FastAPI backend
+  http: ^1.2.1
+
+  # File picker — FIX: use FilePicker.platform.pickFiles() NOT FilePicker().platform
+  file_picker: ^8.0.3
+
+  # Save downloaded files to device temp directory
+  path_provider: ^2.1.3
+
+  # Open Excel/PDF files with the OS default app (Files app on iOS, file manager on Android)
+  open_filex: ^4.7.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

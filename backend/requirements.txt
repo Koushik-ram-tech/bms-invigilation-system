@@ -1,0 +1,35 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pdfplumber
+openpyxl
+python-docx
+pandas
+xlrd
+pytesseract
+pdf2image
+Pillow
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pdfplumber==0.11.0
+openpyxl==3.1.2
+python-docx==1.1.2
+pandas==2.2.2
+aiofiles==23.2.1
+# BMS Invigilation System v10 — Backend Dependencies
+# Install: pip install -r requirements.txt
+
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pdfplumber==0.11.0
+openpyxl==3.1.2
+python-docx==1.1.2
+pandas==2.2.2
+aiofiles==23.2.1
+
+# Optional OCR for scanned PDFs (uncomment if needed):
+# pytesseract==0.3.10
+# pdf2image==1.17.0
+# Pillow==10.3.0

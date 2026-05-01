@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android/app/src/main/res/xml/file_paths.xml -->
+<!--
+  This file is required by open_filex so Android can share files
+  (downloaded Excel exports) with other apps like Files, Excel, etc.
+  Place at: android/app/src/main/res/xml/file_paths.xml
+-->
+<paths>
+    <cache-path name="cache" path="."/>
+    <external-cache-path name="external_cache" path="."/>
+    <files-path name="files" path="."/>
+    <external-files-path name="external_files" path="."/>
+</paths>
